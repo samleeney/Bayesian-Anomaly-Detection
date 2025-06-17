@@ -34,23 +34,6 @@ jupyter notebook demo_anomaly_detection.ipynb
 python bayesian_anomaly_detection.py
 ```
 
-## Method Overview
-
-The approach introduces a **binary anomaly mask** ε_i for each data point:
-
-```
-ε_i = { 0 if data point i is expected
-      { 1 if data point i is anomalous
-```
-
-Using Bernoulli priors and marginalising over all possible anomaly configurations leads to an **anomaly-corrected log-likelihood**:
-
-```
-log P(D|θ) = Σ max(log L_i + log(1-p), log p - log Δ)
-```
-
-This automatically flags outliers whilst preserving robust parameter estimation.
-
 ## Key References
 
 - **Leeney et al. (2022)**: [Bayesian approach to radio frequency interference mitigation](https://arxiv.org/abs/2211.15448)
