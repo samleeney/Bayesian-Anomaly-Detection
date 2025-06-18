@@ -9,18 +9,8 @@ This repository demonstrates how Bayesian anomaly detection can automatically id
 ## Files
 
 ### 📓 [Jupyter Notebook](demo_anomaly_detection.ipynb)
-Complete interactive demonstration with:
-- Comprehensive mathematical framework with LaTeX equations
-- Step-by-step implementation
-- All visualisations embedded
-- Detailed explanations and theory
 
 ### 🐍 [Python Script](bayesian_anomaly_detection.py)
-Standalone Python script version:
-- Command-line executable
-- Same analysis as notebook
-- Generates publication-quality plots
-- Perfect for batch processing or integration into larger workflows
 
 ## Quick Start
 
